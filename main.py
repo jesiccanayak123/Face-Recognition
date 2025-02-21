@@ -2,7 +2,7 @@ import cv2
 import os
 
 video=cv2.VideoCapture(0)
-facedetect=cv2.CascadeClassifier('C:/Users/jesicca.nayak/AppData/Local/Programs/Python/Python311/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml')
+facedetect=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 count = 0
 
 nameID=str(input("Enter Your Name: ")).lower()
